@@ -73,7 +73,7 @@ function App() {
 
   if(loader) return (
     <div
-      className={`w-full min-h-screen p-1 sm:p-5 object-cover bg-[url("rainybg.jpeg")] flex justify-center items-center text-white`}
+      className={`w-full min-h-screen p-1 sm:p-5 object-cover b flex justify-center items-center text-white`}
     >
       <div className="w-[97%] sm:w-[85%] md:w-[65%] lg:w-[550px]  p-1 sm:p-5 bg-transparent border-l-indigo-100 border-[1px]  rounded-3xl flex justify-center font-semibold">
 loading...</div>
@@ -82,7 +82,7 @@ loading...</div>
 
   if(error !== "") return (
     <div
-      className={`w-full min-h-screen p-1 sm:p-5 object-cover bg-[url("rainybg.jpeg")] flex justify-center items-center text-white`}
+      className={`w-full min-h-screen p-1 sm:p-5 object-cover  flex justify-center items-center text-white`}
     >
       <div className="w-[97%] sm:w-[85%] md:w-[65%] lg:w-[550px]  p-1 sm:p-5 bg-transparent border-l-indigo-100 border-[1px]  rounded-3xl flex justify-center font-semibold">
 {error}</div>
@@ -91,7 +91,7 @@ loading...</div>
 
   return (
     <div
-      className={`w-full min-h-screen p-1 sm:p-5 object-cover bg-[url("rainybg.jpeg")] flex justify-center items-center`}
+      className={`w-full min-h-screen p-1 sm:p-5 object-cover  flex justify-center items-center`}
     >
       <div className="w-[97%] sm:w-[85%] md:w-[65%] lg:w-[550px]  p-1 sm:p-5 bg-transparent border-l-indigo-100 border-[1px]  rounded-3xl">
 
